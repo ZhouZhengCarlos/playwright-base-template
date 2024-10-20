@@ -1,0 +1,20 @@
+{
+  "name": "playwright-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.7.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "baseUrl": ".",
+        "paths": {
+            "@pages/*": ["pages/*"],
+            "@components/*": ["components/*"],
+            "@env": ["env.ts"],
+            "@test-data/*": ["test-data/*"],
+            "@helpers/*": ["helpers/*"],
+            "@fixtures/*": ["fixtures/*"]
+        }
+    }
+}
