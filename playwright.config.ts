@@ -1,7 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './tests',
+  testDir: './src/tests',
   timeout: 60000,
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
@@ -16,6 +16,7 @@ export default defineConfig({
   use: {
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
+    baseURL: process.env.WEB_URL
   },
   projects: [
     {

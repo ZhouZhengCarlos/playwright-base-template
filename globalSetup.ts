@@ -5,8 +5,9 @@ async function globalSetup(config) {
   if(process.env.test_env === undefined) {
     process.env.test_env = 'production';
   }
+  
   dotenv.config({
-    path: `./environments/.env.${process.env.test_env}`,
+    path: `./src/environments/.env.${process.env.test_env}`,
     override: true,
   });
 }
