@@ -4,12 +4,12 @@
         "esModuleInterop": true,
         "baseUrl": ".",
         "paths": {
-            "@pages/*": ["pages/*"],
-            "@components/*": ["components/*"],
+            "@pages/*": ["src/pages/*"],
+            "@components/*": ["src/components/*"],
             "@env": ["env.ts"],
-            "@test-data/*": ["test-data/*"],
-            "@helpers/*": ["helpers/*"],
-            "@fixtures/*": ["fixtures/*"]
+            "@test-data/*": ["src/test-data/*"],
+            "@helpers/*": ["src/helpers/*"],
+            "@fixtures/*": ["src/fixtures/*"]
         }
     }
 }
