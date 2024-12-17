@@ -48,7 +48,7 @@ Ensure you have a basic understanding of the following concepts:
 
 Writing tests with Playwright is straightforward and follows a simple pattern. Tests are designed to interact with your web application, simulate user actions, and assert expected behaviors. 
 
-For more detailed information, refer to the official documentation on [Writing Tests](https://playwright.dev/docs/writing-tests).
+For more detailed information, refer to the official documentation on [Writing Tests] (https://playwright.dev/docs/writing-tests).
 
 ### Playwright Test Flow:
 1. **Perform Actions**: Interact with web elements using functions like `click`, `hover`, `fill`, etc.
