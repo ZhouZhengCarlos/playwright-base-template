@@ -50,7 +50,7 @@ Writing tests with Playwright is straightforward and follows a simple pattern. T
 For more detailed information, refer to the official documentation on [Writing Tests](https://playwright.dev/docs/writing-tests).
 
 ### Playwright Test Flow:
-1. **Perform Actions**: Interact with web elements using functions like `click`, `type`, `fill`, etc.
+1. **Perform Actions**: Interact with web elements using functions like `click`, `hover`, `fill`, etc.
 2. **Assert the State**: Verify the outcome of the actions by making assertions on elements' states (e.g., visibility, text content, etc.).
 
 ### Test Structure:
