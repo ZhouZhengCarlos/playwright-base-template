@@ -13,6 +13,7 @@ Ensure you have a basic understanding of the following concepts:
 * clone this repo
 * execute ```npm i```
 * execute ```npx playwright install```
+* Optional install Visual Studio code and [Playwright extension] (https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
 
 ## Recomendations
 * I highly recommend reading the official Playwright documentation. If you’re short on time, focus on these sections:
